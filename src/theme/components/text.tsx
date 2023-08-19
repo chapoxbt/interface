@@ -19,6 +19,9 @@ export const ThemedText = {
   BodyPrimary(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={16} color="textPrimary" {...props} />
   },
+  BodyAlt(props: TextProps) {
+    return <TextWrapper fontWeight={400} fontSize={18} color="textPrimary" {...props} />
+  },
   BodySecondary(props: TextProps) {
     return <TextWrapper fontWeight={400} fontSize={16} color="textSecondary" {...props} />
   },
@@ -63,6 +66,9 @@ export const ThemedText = {
   },
   SubHeader(props: TextProps) {
     return <TextWrapper fontWeight={500} fontSize={16} color="textPrimary" lineHeight="24px" {...props} />
+  },
+  SubHeaderL(props: TextProps) {
+    return <TextWrapper fontWeight={800} fontSize={18} color="textPrimary" lineHeight="24px" {...props} />
   },
   SubHeaderSmall(props: TextProps) {
     return <TextWrapper fontWeight={500} fontSize={14} color="textSecondary" {...props} />

@@ -21,7 +21,7 @@ export const colors = {
   gray750: '#1B2236',
   gray800: '#131A2A',
   gray850: '#0E1524',
-  gray900: '#0D111C',
+  gray900: '#0f1013',
   gray950: '#080B11',
   pink50: '#F9ECF1',
   pink100: '#FFD9E4',
@@ -75,7 +75,7 @@ export const colors = {
   blue100: '#DEE1FF',
   blue200: '#ADBCFF',
   blue300: '#869EFF',
-  blue400: '#4C82FB',
+  blue400: '#4c82fb', //#4c82fb
   blue500: '#1267D6',
   blue600: '#1D4294',
   blue700: '#09265E',
@@ -127,7 +127,7 @@ const commonTheme = {
   chain_56_background: colors.networkBsc,
   promotional: colors.magenta300,
 
-  brandedGradient: 'linear-gradient(139.57deg, #FF79C9 4.35%, #FFB8E2 96.44%);',
+  brandedGradient: '#131214',
   promotionalGradient: 'radial-gradient(101.8% 4091.31% at 0% 0%, #4673FA 0%, #9646FA 100%);',
 
   hoverState: opacify(24, colors.blue200),
@@ -141,11 +141,11 @@ export const darkTheme = {
 
   background: colors.gray800,
   backgroundBackdrop: colors.gray950,
-  backgroundSurface: colors.gray900,
-  backgroundModule: colors.gray800,
+  backgroundSurface: '#0E0E0E',
+  backgroundModule: '#141316',
   backgroundInteractive: colors.gray700,
   backgroundFloating: opacify(12, colors.black),
-  backgroundOutline: opacify(24, colors.gray300),
+  backgroundOutline: '#24232b',
   backgroundScrim: opacify(72, colors.gray900),
   backgroundScrolledSurface: opacify(72, colors.gray900),
 
@@ -161,6 +161,7 @@ export const darkTheme = {
   accentCritical: colors.red300,
 
   accentActionSoft: opacify(24, colors.blue400),
+  accentActionSofter: '#5100ff',
   accentActiveSoft: opacify(24, colors.blue400),
   accentSuccessSoft: opacify(24, colors.green400),
   accentWarningSoft: opacify(24, colors.gold200),
@@ -213,6 +214,7 @@ export const lightTheme: Theme = {
   accentCritical: colors.red400,
 
   accentActionSoft: opacify(12, colors.pink400),
+  accentActionSofter: '#5100ff',
   accentActiveSoft: opacify(24, colors.blue400),
   accentSuccessSoft: opacify(24, colors.green300),
   accentWarningSoft: opacify(24, colors.gold400),

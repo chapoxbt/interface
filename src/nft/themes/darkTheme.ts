@@ -14,13 +14,13 @@ export const darkTheme: Theme = {
     violet: vars.color.violet200,
 
     backgroundFloating: '0000000C',
-    backgroundInteractive: vars.color.gray700,
+    backgroundInteractive: '#24232b',
     backgroundModule: vars.color.gray800,
     backgroundOutline: vars.color.backgroundInteractive,
     backgroundSurface: vars.color.gray900,
     backgroundBackdrop: vars.color.gray950,
 
-    modalBackdrop: 'linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))',
+    modalBackdrop: '#131214',
 
     searchBackground: `rgba(255,255,255,0.07)`,
     searchOutline: `rgba(255,255,255,0.07)`,

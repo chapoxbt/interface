@@ -76,13 +76,13 @@ export const ArrowContainer = styled.div`
 
 const SwapSection = styled.div`
   background-color: ${({ theme }) => theme.backgroundModule};
-  border-radius: 16px;
+  border-radius: 13px;
   color: ${({ theme }) => theme.textSecondary};
   font-size: 14px;
   font-weight: 500;
-  height: 120px;
+  height: 100px;
   line-height: 20px;
-  padding: 16px;
+  padding: 13px;
   position: relative;
 
   &:before {

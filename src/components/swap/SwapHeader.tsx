@@ -10,7 +10,7 @@ import SettingsTab from '../Settings'
 import SwapBuyFiatButton from './SwapBuyFiatButton'
 
 const StyledSwapHeader = styled(RowBetween)`
-  margin-bottom: 10px;
+  margin-bottom: 4px;
   color: ${({ theme }) => theme.textSecondary};
 `
 
@@ -33,9 +33,9 @@ export default function SwapHeader({
   return (
     <StyledSwapHeader>
       <HeaderButtonContainer>
-        <ThemedText.SubHeader>
-          <Trans>Swap</Trans>
-        </ThemedText.SubHeader>
+        <ThemedText.SubHeaderL>
+          <Trans>SWAP</Trans>
+        </ThemedText.SubHeaderL>
         {fiatOnRampButtonEnabled && <SwapBuyFiatButton />}
       </HeaderButtonContainer>
       <RowFixed>

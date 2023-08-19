@@ -4,6 +4,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.formatOnSaveMode": "file",
   "editor.tabCompletion": "on",
+  "editor.dragAndDrop":true,
   "editor.tabSize": 2,
   "editor.formatOnSave": false,
   "editor.inlineSuggest.enabled": true,
